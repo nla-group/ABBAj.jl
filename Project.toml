@@ -4,7 +4,6 @@ authors = ["Stefan Güttel <orcidID 0000-0003-1494-4478>", "Xinye Chen <orcidID 
 version = "0.1.0"
 
 [deps]
-Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 ParallelKMeans = "42b8e9d4-006b-409a-8472-7f34b3fb58af"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
