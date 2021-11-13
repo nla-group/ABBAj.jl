@@ -1,6 +1,6 @@
 name = "ABBA"
 uuid = "6b41afa3-2ed9-49a7-abc1-b2d458227d0d"
-authors = ["Xinye Chen <orcidID 0000-0003-1778-393X>", "Stefan Güttel <orcidID 0000-0003-1494-4478>"]
+authors = ["Stefan Güttel <orcidID 0000-0003-1494-4478>", "Xinye Chen <orcidID 0000-0003-1778-393X>"]
 version = "0.1.0"
 
 [deps]
