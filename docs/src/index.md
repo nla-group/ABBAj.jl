@@ -1,6 +1,6 @@
-# jlABBA.jl
+# ABBAj.jl
 
-Documentation for jlABBA.jl: A Julia version of ABBA with parallel k-means implementation
+Documentation for ABBAj.jl: A Julia version of ABBA with parallel k-means implementation
 
 
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)

@@ -1,4 +1,4 @@
-using jlABBA, Random, Distributions
+using ABBAj, Random, Distributions
 
 Seed = 0;
 Random.seed!(Seed);

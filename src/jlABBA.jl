@@ -1,4 +1,4 @@
-module jlABBA
+module ABBAj
 include("Compress.jl")
 include("Digitization.jl")
 include("Reconstruction.jl")

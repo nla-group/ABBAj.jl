@@ -4,7 +4,7 @@ using Documenter
 push!(LOAD_PATH,"../src/")
 makedocs(
     authors="Stefan Güttel & Xinye Chen",
-    sitename = "jlABBA",
+    sitename = "ABBAj",
     format = Documenter.HTML(),
     pages=["Home" => "index.md"],
 )
@@ -13,5 +13,5 @@ makedocs(
 # See "Hosting Documentation" and deploydocs() in the Documenter manual
 # for more information.
 deploydocs(
-    repo = "github.com/nla-group/jlABBA.git"
+    repo = "github.com/nla-group/ABBAj.git"
 )
