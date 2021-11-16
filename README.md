@@ -1,13 +1,14 @@
 # ABBAj
+
 [![Build Status](https://app.travis-ci.com/nla-group/ABBAj.jl.svg?branch=master)](https://app.travis-ci.com/github/nla-group/ABBAj.jl)
 [![Build Status](https://github.com/nla-group/ABBAj.jl/actions/workflows/ci.yml/badge.svg)](https://github.com/nla-group/ABBAj.jl/actions)
 [![codecov](https://codecov.io/gh/nla-group/ABBAj.jl/branch/master/graph/badge.svg?token=19A3126WBX)](https://codecov.io/gh/nla-group/ABBAj.jl)
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/nla-group/jlABBA/HEAD)
 
-A Julia version of ABBA with parallel k-means implementation
+Documentation:[![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://nla-group.github.io/ABBAj.jl/dev/)
 
- [![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://nla-group.github.io/ABBAj.jl/dev/)
+A Julia version of ABBA with parallel k-means implementation
  
 ABBA is a symbolic representation method, which achives time series compression and discretization 
 by transforming time series into symbolic representation. The package provides Julia implementation of ABBA 
