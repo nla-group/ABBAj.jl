@@ -1,18 +1,24 @@
 # ABBAj.jl
 
-Documentation for ABBAj.jl: A Julia version of ABBA with parallel k-means implementation
-
 [![Build Status](https://app.travis-ci.com/nla-group/ABBAj.jl.svg?branch=master)](https://app.travis-ci.com/github/nla-group/ABBAj.jl)
 [![Build Status](https://github.com/nla-group/ABBAj.jl/actions/workflows/ci.yml/badge.svg)](https://github.com/nla-group/ABBAj.jl/actions)
 [![codecov](https://codecov.io/gh/nla-group/ABBAj.jl/branch/master/graph/badge.svg?token=19A3126WBX)](https://codecov.io/gh/nla-group/ABBAj.jl)
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/nla-group/jlABBA/HEAD)
 
+Documentation for ABBAj.jl: A Julia version of ABBA with parallel k-means implementation
 
+A Julia version of ABBA with parallel k-means implementation 
+> + Documentation: [![Dev](https://img.shields.io/badge/docs-latest-blue.svg)](https://nla-group.github.io/ABBAj.jl/dev/)
 
-ABBA is a symbolic representation method, which achives time series compression and discretization 
-by transforming time series into symbolic representation. The package provides Julia implementation of ABBA 
-method, also use ParallelKMeans.jl to achieve speedup the digitization. 
+ABBA (Adaptive Brownian bridge-based aggregation) is a symbolic time series representation method introduced by Elsworth Steven and Stefan Güttel, which archives time-series compression and discretization by transforming time series into a symbolic representation. The package provides lightweight Julia implementation of the ABBA method, also use ParallelKMeans.jl to achieve speedup the digitization. 
+
+## Installation
+You can simply install the stable version of this package by simply running in Julia:
+
+```julia
+pkg> add ABBAj
+```
 
 
 ## Examples
