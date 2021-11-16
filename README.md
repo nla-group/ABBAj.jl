@@ -7,6 +7,8 @@
 
 A Julia version of ABBA with parallel k-means implementation
 
+ [![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://nla-group.github.io/ABBAj.jl/dev/)
+ 
 ABBA is a symbolic representation method, which achives time series compression and discretization 
 by transforming time series into symbolic representation. The package provides Julia implementation of ABBA 
 method, also use ParallelKMeans.jl to achieve speedup the digitization. 
