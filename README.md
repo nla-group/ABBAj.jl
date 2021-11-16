@@ -1,5 +1,5 @@
 # ABBAj
-
+[![Build Status](https://app.travis-ci.com/nla-group/ABBAj.jl.svg?branch=master)](https://travis-ci.com/nla-group/ABBAj.jl)
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/nla-group/jlABBA/HEAD)
 
