@@ -6,7 +6,7 @@
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/nla-group/jlABBA/HEAD)
 
-### Documentation: [![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://nla-group.github.io/ABBAj.jl/dev/)
+#### Documentation: [![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://nla-group.github.io/ABBAj.jl/dev/)
 
 A Julia version of ABBA with parallel k-means implementation
  
