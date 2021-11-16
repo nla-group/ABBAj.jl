@@ -4,7 +4,7 @@ os:
 julia:
   - 1.6
 branch:
-  onky:
+  only:
     - master
 notifications:
   email: false
