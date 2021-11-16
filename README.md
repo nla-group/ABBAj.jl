@@ -12,7 +12,7 @@ A Julia version of ABBA with parallel k-means implementation
 ABBA (Adaptive Brownian bridge-based aggregation) is a symbolic time series representation method introduced by Elsworth Steven and Stefan Güttel, which archives time-series compression and discretization by transforming time series into a symbolic representation. The package provides lightweight Julia implementation of the ABBA method, also use ParallelKMeans.jl to achieve speedup the digitization. 
 
 ## Installation
-You can simply install the stable version of this package by simply running in Julia:
+You can simply install the stable version of this package by running in Julia:
 
 ```julia
 pkg> add ABBAj
