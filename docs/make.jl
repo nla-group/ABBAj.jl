@@ -1,5 +1,4 @@
 using Documenter
-using ABBAj
 
 push!(LOAD_PATH,"../src/")
 makedocs(
