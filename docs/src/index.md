@@ -1,7 +1,11 @@
-# Julia-ABBA
+# jlABBA.jl
+
+Documentation for jlABBA.jl: A Julia version of ABBA with parallel k-means implementation
 
 
-A Julia version of ABBA with parallel k-means implementation
+[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/nla-group/jlABBA/HEAD)
+
 
 ABBA is a symbolic representation method, which achives time series compression and discretization 
 by transforming time series into symbolic representation. The package provides Julia implementation of ABBA 
@@ -20,6 +24,7 @@ julia> r_time_series = inverse_transform(symbols, model, time_series[1]); # inve
 
 ```
 
+![Digitization](demo.png)
 ### Referece
 
 Elsworth, S., Güttel, S. ABBA: adaptive Brownian bridge-based symbolic aggregation of time series. Data Min Knowl Disc 34, 1175–1200 (2020). https://doi.org/10.1007/s10618-020-00689-6
