@@ -21,7 +21,7 @@ pkg> add ABBAj
 ```
 
 ## Methods
-The following functions aims to transform time series into symbols:
+##### The following functions aims to transform time series into symbols:
 
 - [`fit_transform(series::AbstractVector, k::Int, tol=0.5::AbstractFloat, nthreads=Threads.nthreads()::Int, max_len=typemax(Int)::Int)`](@ref)
 
@@ -34,7 +34,7 @@ The following functions aims to transform time series into symbols:
 - [`digitization_k(array, k::Int, nthreads::Int)`](@ref)
 
 
-The following functions aims to transform symbols back to time series:
+##### The following functions aims to transform symbols back to time series:
 
 `inverse_digitize` aims to reconstruct pieces from symbols.
 
