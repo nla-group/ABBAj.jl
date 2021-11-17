@@ -25,6 +25,8 @@ pkg> add ABBAj
 julia> time_series = load_sample(); # load time series samples 
 julia> symbols, model = fit_transform(time_series, 4, 0.1); # use 4 symbols with compressed tolerance of 0.1
 julia> r_time_series = inverse_transform(symbols, model, time_series[1]); # inverse transform time series
+```
+
 ![Reconstruction](docs/src/demo.png)
 
 ### Software Contributors
