@@ -2,7 +2,7 @@ using ABBAj, Test, DelimitedFiles
 time_series = load_sample();
 
 
-#======================== test 1
+# test 1
 symbols, model = fit_transform(time_series,20, 0.1);
 r_time_series = inverse_transform(symbols, model, time_series[1]);
 
@@ -14,7 +14,8 @@ writedlm("r_time_series1", r_time_series)
 r_time_series_backup = readdlm("r_time_series1", '\t', Float64, '\n');
 @test r_time_series_backup == hcat(r_time_series)
 
-#======================== test 2
+
+# test 2
 symbols, model = fit_transform(time_series,30, 0.1);
 r_time_series = inverse_transform(symbols, model, time_series[1]);
 
@@ -27,7 +28,7 @@ r_time_series_backup = readdlm("r_time_series2", '\t', Float64, '\n');
 @test r_time_series_backup == hcat(r_time_series)
 
 
-#======================== test 3
+# test 3
 symbols, model = fit_transform(time_series,30, 0.5);
 r_time_series = inverse_transform(symbols, model, time_series[1]);
 
@@ -40,7 +41,7 @@ r_time_series_backup = readdlm("r_time_series3", '\t', Float64, '\n');
 @test r_time_series_backup == hcat(r_time_series)
 
 
-#======================== test 4
+# test 4
 symbols, model = fit_transform(time_series,30, 0.1, 5);
 r_time_series = inverse_transform(symbols, model, time_series[1]);
 
