@@ -20,21 +20,21 @@ You can simply install the stable version of this package by running in Julia:
 pkg> add ABBAj
 ```
 
-## Transform
-The following functions aims to transform time series into symbols
+## Methods
+The following functions aims to transform time series into symbols:
 
 - [`fit_transform(series::AbstractVector, k::Int, tol=0.5::AbstractFloat, nthreads=Threads.nthreads()::Int, max_len=typemax(Int)::Int)`](@ref)
 
-`compress` aims to compress time series into stacked array, i.e., pieces. Each row refers to the segment information (length, increment, errors)
+`compress` aims to compress time series into stacked array, i.e., pieces. Each row refers to the segment information (length, increment, errors).
 
 - [`compress(series::AbstractVector, tol=0.5::AbstractFloat, max_len=typemax(Int)::Int)`](@ref)
 
-`digitization_k` aims to digitize time series pieces into symbols
+`digitization_k` aims to digitize time series pieces into symbols.
 
 - [`digitization_k(array, k::Int, nthreads::Int)`](@ref)
 
 
-The following functions aims to transform symbols back to time series.
+The following functions aims to transform symbols back to time series:
 
 `inverse_digitize` aims to reconstruct pieces from symbols.
 
