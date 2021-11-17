@@ -30,12 +30,13 @@ julia> r_time_series = inverse_transform(symbols, model, time_series[1]); # inve
 ![Reconstruction](docs/src/demo.png)
 
 ### Software Contributors
+* Equal contributions.
 ```
 Roberto Cahuantzi(orcidID:0000-0002-0212-6825),
 Xinye Chen(orcidID:0000-0003-1778-393X) 
 Stefan Güttel(OrcidID:0000-0003-1494-4478)
 ```
-* Equal contributions.
+
 
 
 ### Referece
