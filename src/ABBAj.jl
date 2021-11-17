@@ -5,7 +5,7 @@ include("Reconstruction.jl")
 using .Compress, .Digitization, .Reconstruction
 using Statistics
 
-export fit_transform, inverse_transform, standard_data, load_samples
+export fit_transform, inverse_transform, standard_data, load_sample
 
 
 """
