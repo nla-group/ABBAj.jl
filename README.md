@@ -33,8 +33,10 @@ julia> r_time_series = inverse_transform(symbols, model, time_series[1]); # inve
 ```
 Roberto Cahuantzi(orcidID:0000-0002-0212-6825),
 Xinye Chen(orcidID:0000-0003-1778-393X) 
-Stefan Güttel(OrcidID:0000-0003-1494-4478_
+Stefan Güttel(OrcidID:0000-0003-1494-4478)
 ```
+* Equal contributions.
+
 
 ### Referece
 Elsworth, S., Güttel, S. ABBA: adaptive Brownian bridge-based symbolic aggregation of time series. Data Min Knowl Disc 34, 1175–1200 (2020). https://doi.org/10.1007/s10618-020-00689-6
