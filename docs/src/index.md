@@ -54,14 +54,14 @@ The following functions aims to transform symbols back to time series.
 ## Examples
 
 Run ABBA in all threads:
-```
+```julia
 julia> time_series = load_sample(); # load time series samples 
 julia> symbols, model = fit_transform(time_series, 4, 0.1); # use 4 symbols with compressed tolerance of 0.1
 julia> r_time_series = inverse_transform(symbols, model, time_series[1]); # inverse transform time series
 ```
 
 Run ABBA by specifying the threads:
-```
+```julia
 julia> time_series = load_sample(); # load time series samples 
 julia> symbols, model = fit_transform(time_series, 4, 0.1, 10); # use 4 symbols with compressed tolerance of 0.1 
                                                                 # and run in parallel kmeans with 10 threads
