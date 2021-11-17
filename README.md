@@ -22,16 +22,15 @@ pkg> add ABBAj
 ## Examples
 
 ```
-julia> time_series = load_samples(); # load time series samples 
+julia> time_series = load_sample(); # load time series samples 
 julia> symbols, model = fit_transform(time_series, 4, 0.1); # use 4 symbols with compressed tolerance of 0.1
 julia> r_time_series = inverse_transform(symbols, model, time_series[1]); # inverse transform time series
-julia> symbols, model = fit_transform(time_series, 4, 0.1, 10); # use 4 symbols with compressed tolerance of 0.1 
-                                                                # and run in parallel kmeans with 10 threads
-julia> r_time_series = inverse_transform(symbols, model, time_series[1]); # inverse transform time series
+![Reconstruction](docs/src/demo.png)
 
-```
+### Software Contributors
+Roberto Cahuantzi <orcidID:0000-0002-0212-6825>, Xinye Chen <orcidID:0000-0003-1778-393X> and Stefan Güttel <rcidID:0000-0003-1494-4478>
 
-![Digitization](docs/src/demo.png)
+* Equal contributions: The order of the authors is determined by finger-guessing game in Allan Turing Building.
+
 ### Referece
-
 Elsworth, S., Güttel, S. ABBA: adaptive Brownian bridge-based symbolic aggregation of time series. Data Min Knowl Disc 34, 1175–1200 (2020). https://doi.org/10.1007/s10618-020-00689-6
