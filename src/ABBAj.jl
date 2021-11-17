@@ -72,14 +72,14 @@ end
 
 
 
-function load_samples(len=1000::Int, freq=20.0::AbstractFloat)
-    samples = zeros(len);
+function load_sample(len=1000::Int, freq=20.0::AbstractFloat)
+    sample = zeros(len);
     j = 1;
     for i in range(0, len-1, step=1)*(1/freq)
-        samples[j] = sin(i);
+        sample[j] = sin(i);
         j = j + 1;
     end
-    return samples;
+    return sample;
 end
 
 end
