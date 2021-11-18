@@ -81,7 +81,7 @@ The comparison of root-mean-square deviation :
 The comparison of runtime:
 ![Runtime](RUNTIME.png)
 
-The figures show that by using Julia, ABBAj runs much faster than ABBA while the reconstruction accuracy is preserved. The difference results from the k-means implementation.
+The two figures shown in above demonstrate that by using Julia, ABBAj runs much faster than ABBA while the reconstruction accuracy is preserved. The difference results from the k-means implementation.
 
 
 ### Referece
