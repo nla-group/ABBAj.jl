@@ -70,7 +70,7 @@ julia> r_time_series = inverse_transform(symbols, model, time_series[1]); # inve
 ```
 
 The reconstruction is shown below.
-![Reconstruction](docs/src/demo.png)
+![Reconstruction](demo.png)
 
 ## Julia ABBA VS Python ABBA
 We run ABBAj and ABBA in 100 random samples and each sample with 5000 noises generated from normal distribution by specifying the number of symbols at 100, 1000, respectively. 
