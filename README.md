@@ -27,6 +27,7 @@ julia> symbols, model = fit_transform(time_series, 4, 0.1); # use 4 symbols with
 julia> r_time_series = inverse_transform(symbols, model, time_series[1]); # inverse transform time series
 ```
 
+The reconstruction is shown below.
 ![Reconstruction](docs/src/demo.png)
 
 ## Julia ABBA VS Python ABBA
