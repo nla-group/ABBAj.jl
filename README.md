@@ -41,12 +41,6 @@ The comparison of runtime:
 
 The two figures shown in above demonstrate that by using Julia, ABBAj runs much faster than ABBA while the reconstruction accuracy is preserved. The difference results from the k-means implementation.
 
-### Software Contributors
-* Equal contributions.
-```
-Xinye Chen (orcidID:0000-0003-1778-393X) 
-Stefan Güttel (OrcidID:0000-0003-1494-4478)
-```
 
 
 
