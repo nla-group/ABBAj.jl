@@ -5,6 +5,7 @@
 [![codecov](https://codecov.io/gh/nla-group/ABBAj.jl/branch/master/graph/badge.svg?token=19A3126WBX)](https://codecov.io/gh/nla-group/ABBAj.jl)
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/nla-group/jlABBA/HEAD)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6286546.svg)](https://doi.org/10.5281/zenodo.6286546)
 
 A Julia version of ABBA with parallel k-means implementation 
 > + Documentation: [![Dev](https://img.shields.io/badge/docs-latest-blue.svg)](https://nla-group.github.io/ABBAj.jl/dev/)
