@@ -1,20 +1,16 @@
 ---
 title: 'ABBAj.jl: An accelerated ABBA in Julia'
 tags:
-- time series
-- symbolic representation
-- data mining
-
-
-
-
+  - time series
+  - symbolic representation
+  - data mining
 authors:
-- name: Xinye Chen
-  orcid: 0000-0003-1778-393X
-  affiliation: 1
+  - name: Xinye Chen
+    orcid: 0000-0003-1778-393X
+    affiliation: 1
 affiliations:
-- name: Department of Mathematics, The University of Manchester
-  index: 1
+  - name: Department of Mathematics, The University of Manchester
+    index: 1
 date: 11 March 2022
 bibliography: paper.bib
 ---
