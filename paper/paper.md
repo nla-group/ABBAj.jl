@@ -1,3 +1,22 @@
+---
+title: 'ABBAj.jl: An accelerated ABBA in Julia'
+tags:
+- Chemistry
+- Physicsmar
+- Density Functional Theory
+- Solid State Chemistry
+- Simulation
+- materials
+authors:
+- name: Xinye Chen
+  orcid: 0000-0003-1778-393X
+  affiliation: 1
+affiliations:
+- name: Department of Mathematics, The University of Manchester
+  index: 1
+date: 11 March 2022
+bibliography: paper.bib
+---
 
 # Summary
 
