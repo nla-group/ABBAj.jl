@@ -29,3 +29,6 @@ Symbolizing time series may potentially allow avail of data structures and techn
 
 # Acknowledgements
 I would like to express my special thanks of gratitude to my supervisor Stefan Güttel who gives valuable advice for this software.
+
+
+# References
