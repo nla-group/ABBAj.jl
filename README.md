@@ -10,9 +10,9 @@
 A Julia version of ABBA with parallel k-means implementation 
 > + Documentation: [![Dev](https://img.shields.io/badge/docs-latest-blue.svg)](https://nla-group.github.io/ABBAj.jl/dev/)
 
-ABBA (Adaptive Brownian bridge-based aggregation) is a symbolic time series representation method introduced by Elsworth Steven and Stefan Güttel, which archives time-series compression and discretization by transforming time series into a symbolic representation. The software fABBA (https://github.com/nla-group/fABBA) already provided ABBA transformation with appealing speed and tolerance-oriented digitization. Now our application of interest focus on that is it possible to accelerate ABBA by preserving k-means clustering? The package provides lightweight Julia implementation of the ABBA method, also use ParallelKMeans.jl to achieve speedup in the digitization. 
+ABBA (Adaptive Brownian bridge-based aggregation) is a symbolic time series representation method introduced by Elsworth Steven and Stefan Güttel, which archives time-series compression and discretization by transforming time series into a symbolic representation. Compared to raw data, symbolic representation enjoys numerous benefits including dimensionality reduction, noises reduction, features discretization, and so on. The software `fABBA` (https://github.com/nla-group/fABBA) already provided ABBA transformation with appealing speed and tolerance-oriented digitization. Now our application of interest focus on that is it possible to accelerate ABBA by preserving k-means clustering? The package provides lightweight Julia implementation of the ABBA method, using ParallelKMeans.jl to achieve speedup in the digitization. 
 
-ABBAj is a Julia module for time series transformation with ABBA. With ABBAj, you can employ ABBA in an efficient way to symbolize time series and applied the symbolic representation to the downstream time series task such as classification and forecasting. Compared to the ABBA module, ABBAj enjoys significantly faster speed while retaining the consistent reconstruction error of representation.  
+`ABBAj` is a Julia module for time series transformation with ABBA. With `ABBAj`, you can employ ABBA in an efficient way to symbolize time series and applied the symbolic representation to the downstream time series task such as classification and forecasting. Compared to the ABBA module, `ABBAj` enjoys significantly faster speed while retaining the consistent reconstruction error of representation.  
 
 
 ## Installation
@@ -35,7 +35,7 @@ The reconstruction is shown below.
 ![Reconstruction](docs/src/demo.png)
 
 ## Julia ABBA VS Python ABBA
-We run ABBAj and ABBA in 100 random samples and each sample with 5000 noises generated from normal distribution by specifying the number of symbols at 100, 1000, respectively. 
+We run `ABBAj` and Python ABBA in 100 random samples and each sample with 5000 noises generated from normal distribution by specifying the number of symbols at 100, 1000, respectively. 
 
 The comparison of root-mean-square deviation :
 ![RMSE](docs/src/MSE.png)
@@ -43,7 +43,7 @@ The comparison of root-mean-square deviation :
 The comparison of runtime:
 ![Runtime](docs/src/RUNTIME.png)
 
-The two figures shown in above demonstrate that by using Julia, ABBAj runs much faster than ABBA while the reconstruction accuracy is preserved. The difference results from the k-means implementation.
+The two figures shown in above demonstrate that by using Julia, `ABBAj` runs much faster than ABBA while the reconstruction accuracy is preserved. The difference results from the k-means implementation.
 
 
 

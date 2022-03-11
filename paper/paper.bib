@@ -7,6 +7,19 @@
   journal = {Data Mining and Knowledge Discovery}
 }
 
+@inproceedings{SAX03,
+author = {Lin, Jessica and Keogh, Eamonn and Lonardi, Stefano and Chiu, Bill},
+title = {A Symbolic Representation of Time Series, with Implications for Streaming Algorithms},
+year = {2003},
+publisher = {Association for Computing Machinery},
+abstract = {The parallel explosions of interest in streaming data, and data mining of time series have had surprisingly little intersection. This is in spite of the fact that time series data are typically streaming data. The main reason for this apparent paradox is the fact that the vast majority of work on streaming data explicitly assumes that the data is discrete, whereas the vast majority of time series data is real valued.Many researchers have also considered transforming real valued time series into symbolic representations, nothing that such representations would potentially allow researchers to avail of the wealth of data structures and algorithms from the text processing and bioinformatics communities, in addition to allowing formerly "batch-only" problems to be tackled by the streaming community. While many symbolic representations of time series have been introduced over the past decades, they all suffer from three fatal flaws. Firstly, the dimensionality of the symbolic representation is the same as the original data, and virtually all data mining algorithms scale poorly with dimensionality. Secondly, although distance measures can be defined on the symbolic approaches, these distance measures have little correlation with distance measures defined on the original time series. Finally, most of these symbolic approaches require one to have access to all the data, before creating the symbolic representation. This last feature explicitly thwarts efforts to use the representations with streaming algorithms.In this work we introduce a new symbolic representation of time series. Our representation is unique in that it allows dimensionality/numerosity reduction, and it also allows distance measures to be defined on the symbolic approach that lower bound corresponding distance measures defined on the original series. As we shall demonstrate, this latter feature is particularly exciting because it allows one to run certain data mining algorithms on the efficiently manipulated symbolic representation, while producing identical results to the algorithms that operate on the original data. Finally, our representation allows the real valued data to be converted in a streaming fashion, with only an infinitesimal time and space overhead.We will demonstrate the utility of our representation on the classic data mining tasks of clustering, classification, query by content and anomaly detection.},
+booktitle = {Proceedings of the 8th ACM SIGMOD Workshop on Research Issues in Data Mining and Knowledge Discovery},
+pages = {2--11},
+numpages = {10},
+keywords = {data streams, data mining, symbolic, discretize, time series},
+series = {DMKD '03}
+}
+
 @techreport{CG22a,
   title   = {An efficient aggregation method for the symbolic representation of temporal data},
   author  = {Chen, Xinye and G\"{u}ttel, Stefan},
@@ -14,9 +27,7 @@
   number  = {arXiv:2201.05697},
   pages   = {23},
   institution = {The University of Manchester},
-  address = {UK},
-  type    = {arXiv EPrint},
-  url     = {https://arxiv.org/abs/2201.05697}
+  type    = {arXiv EPrint}
 }
 
 @article{scikit-learn,
@@ -40,8 +51,7 @@
   pages   = {12},
   institution = {The University of Manchester},
   address = {UK},
-  type    = {arXiv EPrint},
-  url     = {https://arxiv.org/abs/2003.05672}
+  type    = {arXiv EPrint}
 }
 
 @techreport{CG22a,
@@ -52,6 +62,5 @@
   pages   = {23},
   institution = {The University of Manchester},
   address = {UK},
-  type    = {arXiv EPrint},
-  url     = {https://arxiv.org/abs/2201.05697}
+  type    = {arXiv EPrint}
 }
