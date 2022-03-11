@@ -41,11 +41,11 @@ We run `ABBAj` and Python ABBA in 100 random samples and each sample with 5000 n
 
 The comparison of root-mean-square deviation :
 
-<img src="docs/src/MSE.png" alt="mse" width="360"/>
+<img src="docs/src/MSE.png" alt="mse" width="430"/>
 
 The comparison of runtime:
 
-<img src="docs/src/RUNTIME.png" alt="runtime" width="360"/>
+<img src="docs/src/RUNTIME.png" alt="runtime" width="430"/>
 
 The two figures shown in above demonstrate that by using Julia, `ABBAj` runs much faster than ABBA while the reconstruction accuracy is preserved. The difference results from the k-means implementation.
 
