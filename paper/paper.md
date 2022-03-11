@@ -1,5 +1,5 @@
 ---
-title: 'ABBAj.jl: An accelerated ABBA in Julia'
+title: 'ABBAj.jl: An accelerated ABBA with parallel k-means'
 tags:
   - time series
   - symbolic representation
