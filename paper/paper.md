@@ -29,7 +29,7 @@ Symbolizing time series may potentially allow avail of useful data structures an
 
 # Acknowledgements
 
-I would like to express my special thanks of gratitude to my supervisor Prof. Stefan Güttel who gives valuable advice for this software.
+I would like to express my special gratitude to my supervisor Prof. Stefan Güttel who gives valuable advice for this software.
 
 
 # References
