@@ -32,18 +32,20 @@ julia> r_time_series = inverse_transform(symbols, model, time_series[1]); # inve
 ```
 
 The reconstruction is shown below.
-![Reconstruction](docs/src/demo.png)
+
+<img src="docs/src/demo.png" alt="Reconstruction" width="360"/>
+
 
 ## Julia ABBA VS Python ABBA
 We run `ABBAj` and Python ABBA in 100 random samples and each sample with 5000 noises generated from normal distribution by specifying the number of symbols at 100, 1000, respectively. 
 
 The comparison of root-mean-square deviation :
 
-<img src="docs/src/MSE.png" alt="drawing" width="360"/>
+<img src="docs/src/MSE.png" alt="mse" width="360"/>
 
 The comparison of runtime:
 
-<img src="docs/src/RUNTIME.png" alt="drawing" width="360"/>
+<img src="docs/src/RUNTIME.png" alt="runtime" width="360"/>
 
 The two figures shown in above demonstrate that by using Julia, `ABBAj` runs much faster than ABBA while the reconstruction accuracy is preserved. The difference results from the k-means implementation.
 
