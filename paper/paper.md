@@ -27,9 +27,5 @@ There are already ABBA variants available in Python such as fABBA [@CG22a]. As a
 
 Symbolizing time series may potentially allow avail of useful data structures and techniques from the text processing and bioinformatics communities [@SAX03]. `ABBAj.jl` is a Julia module for time series transformation with ABBA. With `ABBAj.jl`, we can efficiently employ ABBA to symbolize time series and apply the symbolic representation to the downstream time series task such as time series classification, forecasting, and anomaly detection. Compared to the ABBA python module, `ABBAj.jl` enjoys significantly faster speed while retaining the consistent reconstruction error of representation.  
 
-# Acknowledgements
-
-I would like to express my special gratitude to my supervisor Prof. Stefan Güttel who gives valuable advice for this software.
-
 
 # References
