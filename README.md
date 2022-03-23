@@ -16,12 +16,16 @@ ABBA (Adaptive Brownian bridge-based aggregation) is a symbolic time series repr
 
 
 ## Installation
-You can simply install the stable version of this package by running in Julia:
+You can simply install the stable version of this package by running in Julia (Work in progress):
 
 ```julia
 pkg> add ABBAj
 ```
 
+or download the repository via:
+```
+git clone https://github.com/nla-group/ABBAj.jl
+```
 
 ## Examples
 
